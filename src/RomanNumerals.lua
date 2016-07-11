@@ -7,7 +7,7 @@ local global_module_name_genesiPassword = 'RomanNumerals'
 By 2016 Tiago Danin
 GNU GENERAL PUBLIC LICENSE
 Version 2, June 1991
-see https://github.com/LuaAdvanced/RomanNumerals/blob/master/LICENSE
+see https://github.com/TiagoDanin/RomanNumerals/blob/master/LICENSE
 ]==]--
 
 local RomanNumerals = {
