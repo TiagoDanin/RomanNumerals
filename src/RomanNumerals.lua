@@ -1,5 +1,5 @@
 -- Module options:
-local msg_erro_RomanNumerals = true
+local error_msg_genesiPassword = true
 local register_global_module_RomanNumerals = false
 local global_module_name_genesiPassword = 'RomanNumerals'
 
@@ -11,7 +11,7 @@ see https://github.com/TiagoDanin/RomanNumerals/blob/master/LICENSE
 ]==]--
 
 local RomanNumerals = {
-	version = '1.0',
+	version = '1.1.0',
 	name = 'RomanNumerals',
 	author = 'Tiago Danin - 2016',
 	license = 'GPL v2',
@@ -24,21 +24,21 @@ end
 
 function RomanNumerals.convent (input)
 	if not input then
-		if msg_erro_RomanNumerals then print('RomanNumerals[convent] >> ERRO: input is value nil') end
+		if error_msg_genesiPassword then error('RomanNumerals[convent] >> ERROR: input is a value nil') end
 		return
 	end
 	if type(input) ~= 'number' then
-		if input:match('^[1234567890]*$') then
+		if input:match('^[%d]*$') then
 			input = math.abs(input)
 		else
-			if msg_erro_RomanNumerals then print('RomanNumerals[convent] >> ERRO: input not is number') end
+			if error_msg_genesiPassword then error('RomanNumerals[convent] >> ERROR: input not is a number') end
 			return
 		end
 	else
 		input = math.abs(input)
 	end
 	if input > 1000 then
-		if msg_erro_RomanNumerals then print('RomanNumerals[convent] >> ERRO: input is > 1000') end
+		if error_msg_genesiPassword then error('RomanNumerals[convent] >> is a value large. MAX 1000') end
 		return
 	end
 
