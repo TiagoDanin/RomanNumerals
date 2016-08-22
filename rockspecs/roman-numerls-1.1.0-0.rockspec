@@ -1,8 +1,8 @@
 package = "roman-numerls"
-version = "git-1"
+version = "1.1.0-0"
 
 source = {
-	url = "https://github.com/TiagoDanin/RomanNumerals/1.1.0.tar.gz",
+	url = "https://github.com/TiagoDanin/RomanNumerals/archive/1.1.0.tar.gz",
 	dir = "RomanNumerals-1.1.0"
 }
 
