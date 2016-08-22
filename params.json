@@ -1,6 +1,0 @@
-{
-  "name": "RomanNumerals",
-  "tagline": "",
-  "body": "# RomanNumerals\r\nModule for convert numbers in Roman numbers :)\r\n\r\n## Requires\r\nWritten for Lua 5.2\r\n\r\n## Run\r\n`lua start.lua`\r\n\r\n## Pages\r\n\r\nSuggestions and Support [New Issue](https://github.com/LuaAdvanced/RomanNumerals/issues/new)\r\n\r\nFor stable versions to access [Releases](https://github.com/LuaAdvanced/RomanNumerals/releases)\r\n\r\n## LICENSE\r\nGNU GENERAL PUBLIC LICENSE V2 [(GPL)](https://github.com/LuaAdvanced/RomanNumerals/blob/master/LICENSE)\r\n\r\n---\r\n>2016 Tiago Danin",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
