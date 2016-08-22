@@ -8,7 +8,7 @@ source = {
 description = {
 	summary = "Module for convert numbers in Roman numbers :)",
 	detailed = "Module for convert numbers in Roman numbers :)",
-	homepage = "https://TiagoDanin.github.io/GenesiPassword",
+	homepage = "https://tiagodanin.github.io/RomanNumerals/",
 	maintainer = "Tiago Danin <TiagoDanin@outlook.com>",
 	license = "GPLv2"
 }
